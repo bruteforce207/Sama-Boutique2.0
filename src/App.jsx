@@ -298,8 +298,8 @@ function LandingPage() {
           <div className="hero-grid-lines" aria-hidden="true" />
           <div className="hero-copy">
             <div className="hero-eyebrow"><span className="live-dot" /> FAIT POUR LES COMMERCES D’ICI</div>
-            <h1>Gérez votre stock.<br /><em>Reçu. Envoyé.</em></h1>
-            <p>Gérez le stock de votre magasin et envoyez des reçus professionnels à vos clients sur WhatsApp, en un clic.</p>
+            <h1>Gérez votre stock sans y penser.<br /><em>Fini les cahiers.</em></h1>
+            <p>Chaque vente met votre stock à jour. Envoyez un reçu professionnel à votre client sur WhatsApp, en un clic.</p>
             <div className="hero-actions">
               <ButtonLink href="/connexion">Commencer <ArrowRight size={17} /></ButtonLink>
               <a className="hero-whatsapp" href={WHATSAPP_HELLO}><MessageCircle size={17} /> Parler à l’équipe</a>
