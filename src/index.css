@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #e8e4dd;
+  --color-signal: #e63b2e;
+  --color-canvas: #f5f3ee;
+  --color-ink: #111111;
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-serif: "DM Serif Display", serif;
+  --font-mono: "Space Mono", monospace;
+  --radius-panel: 2rem;
+}
 
 :root {
   font-family: "Space Grotesk", sans-serif;
